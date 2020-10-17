@@ -1,4 +1,4 @@
-# java-
+# java-2020.10.12  课后练习P110 4
 实验2
 
 **计G202  2020322104  焦鸿霄**
@@ -15,11 +15,18 @@
 **二、实验过程**
 
 在包中建立PC、CPU、HardDisk和Test四个类，其中Test上主类。
-
-（1）CPU类要求getSpeed()返回speed的值，要求getSpeed（int m）方法将参数m的值赋值给speed;
-（2）HardDisk类要求getAmount（）返回amount的值，要求setAmount（int m）方法将参数m的值赋值给amount；
-（3）PC类要求setCPU（CPU c）将参数c的值值赋值给cpu，要求setHardDisk（HardDisk h）方法将参数h的值赋值给HD，要求show()方法显示cpu的速度和硬盘的容量；
-（4）添加新的属性：CPU的品牌和硬盘的价格；
+* CPU类要求getSpeed()返回speed的值，要求getSpeed（int m）方法将参数m的值赋值给speed;
+* HardDisk类要求getAmount（）返回amount的值，要求setAmount（int m）方法将参数m的值赋值给amount；
+* PC类要求setCPU（CPU c）将参数c的值值赋值给cpu，要求setHardDisk（HardDisk h）方法将参数h的值赋值给HD，要求show()方法显示cpu的速度和硬盘的容量；
+* 添加新的属性：例如CPU的品牌和硬盘的价格；
+* * * 
+主类Test的要求
++ main方法中创建一个 CPU对象cpu, cpu将自己的speed设置为2200
++ main方法中创建一个HardDisk对象disk, disk 将自己的amount设置为200
++ main方法中创建一个PC对象pc
++ pc调用setCPU(CPU c)方法，调用时实参是cpu。
++ pc调用setHardDisk (HardDisk h)方法， 调用时实参是disk。
++ pc 调用show(方法。
 
 **三、核心方法**
 ```
@@ -110,3 +117,9 @@ public class Test {
 **五、实验感想**
 
 通过这次实验学会使用Java编写简单的类，理解简单的类的使用方法，熟悉Java的构造方法，实现了定义属性的修饰符多样化。
+实验中遇到的问题：
+  1. 代码转换为代码板块、文字的调节、文档最后显示所需要使用的makedown的使用方法不会
+    解决办法：通过百度查询使用方法，多次尝试使用。
+  2. 属性的修饰符多样化不熟悉
+    解决办法：通过向同学请教，自己实际操作解决问题。
+       
