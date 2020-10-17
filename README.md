@@ -22,7 +22,7 @@
 * PC类要求setCPU（CPU c）将参数c的值值赋值给cpu，要求setHardDisk（HardDisk h）方法将参数h的值赋值给HD，要求show()方法显示cpu的速度和硬盘的容量；
 * 添加新的属性：例如CPU的品牌和硬盘的价格；
 * * * 
-主类Test的要求
+主类Test的要求：
 + main方法中创建一个 CPU对象cpu, cpu将自己的speed设置为2200
 + main方法中创建一个HardDisk对象disk, disk 将自己的amount设置为200
 + main方法中创建一个PC对象pc
